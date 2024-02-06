@@ -1,2 +1,2 @@
 # Secrets
-https://secrets-sigma.vercel.app/
+https://anonymous-secrets-3dcx.onrender.com/
