@@ -46,7 +46,7 @@ passport.use(new GoogleStrategy({
     clientSecret: process.env.CLIENT_SECRET,
     callbackURL: "https://anonymous-secrets-3dcx.onrender.com/auth/google/secrets",
     // callbackURL: "http://localhost:3000/auth/google/secrets",
-    userProfilrURL: "https://www.googleapis.com/oauth2/v3/userinfo"
+    // userProfilrURL: "https://www.googleapis.com/oauth2/v3/userinfo"
 },
     async (accessToken, refreshToken, profile, done) => {
         try {
